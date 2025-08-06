@@ -13,6 +13,19 @@ header {
   padding: 2rem;
 }
 
+nav {
+  background-color: #7a4420;
+  text-align: center;
+  padding: 1rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-weight: bold;
+}
+
 main {
   padding: 2rem;
   max-width: 800px;
