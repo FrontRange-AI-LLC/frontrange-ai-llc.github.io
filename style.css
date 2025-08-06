@@ -1,5 +1,6 @@
+/* Global Style */
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
   background: #f4b066;
@@ -10,34 +11,74 @@ header {
   background-color: #5e3d28;
   color: #fff;
   text-align: center;
-  padding: 2rem;
+  padding: 2.5rem 1rem;
 }
 
+header img {
+  margin-bottom: 1rem;
+}
+
+/* Navigation */
 nav {
   background-color: #7a4420;
   text-align: center;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
   padding: 1rem;
 }
 
 nav a {
   color: #fff;
   text-decoration: none;
-  margin: 0 1rem;
-  font-weight: bold;
+  font-weight: 600;
+  font-size: 1rem;
 }
 
+/* Main Content */
 main {
   padding: 2rem;
-  max-width: 800px;
+  max-width: 900px;
   margin: auto;
 }
 
-a {
-  color: #5e3d28;
-  text-decoration: none;
-  font-weight: bold;
+section {
+  margin-bottom: 3rem;
 }
 
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 1.3rem;
+  margin-top: 0;
+}
+
+/* Services Styling */
+.service-card {
+  background: #fff4e6;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.service-card ul {
+  padding-left: 1.25rem;
+  margin: 0.75rem 0 0;
+}
+
+.service-card li {
+  margin-bottom: 0.5rem;
+}
+
+/* Buttons */
 a.button {
   display: inline-block;
   background-color: #5e3d28;
@@ -51,4 +92,9 @@ a.button {
 
 a.button:hover {
   background-color: #3a2b1a;
+}
+
+a {
+  color: #5e3d28;
+  font-weight: 600;
 }
